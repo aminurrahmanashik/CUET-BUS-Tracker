@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/driver4"
+    tools:context=".Driver_Login">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+        <EditText
+            android:id="@+id/driver_login_id"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="115sp"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/edittext_round"
+            android:drawableLeft="@drawable/profile"
+            android:fontFamily="@font/lobster_regular"
+            android:hint="Enter Id"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#050505"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/driver_login_email"
+            android:fontFamily="@font/lobster_regular"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/edittext_round"
+            android:drawableLeft="@drawable/user"
+            android:hint=" Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#050505"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/driver_login_password"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/lobster_regular"
+            android:background="@drawable/edittext_round"
+            android:drawableLeft="@drawable/pass"
+            android:hint=" Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#050505"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/driver_login_button"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/lobster_regular"
+            android:background="@drawable/custom_button"
+            android:text="Login"
+            android:textColor="@color/cuet_bus"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/driver_signin_text_View_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/lobster_regular"
+            android:gravity="center"
+            android:text="Are You Not Registered ? Sign Up"
+            android:textColor="#FFFCFC"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <ProgressBar
+            android:id="@+id/driver_progress_logid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>

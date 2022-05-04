@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/cuet3"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-95dp">
+
+        <TextView
+            android:layout_width="856dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60sp"
+            android:fontFamily="@font/lobster_regular"
+            android:text="CUET Bus Tracker!"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.082"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.047" />
+
+        <Button
+            android:id="@+id/buttonid1"
+            android:layout_width="183dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="16sp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/button_round"
+            android:fontFamily="@font/lobster_regular"
+            android:text="Sign In as a User"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+        <Button
+            android:id="@+id/buttonid2"
+            android:layout_width="199dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="310sp"
+            android:layout_marginRight="100sp"
+            android:background="@drawable/button_round"
+            android:fontFamily="@font/lobster_regular"
+            android:text="sign in as a Driver"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="146dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

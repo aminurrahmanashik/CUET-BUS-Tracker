@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/driver5"
+    tools:context=".Track_Location">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+
+        <Spinner
+            android:id="@+id/find_bus_id"
+            android:layout_width="239dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="130sp"
+            android:gravity="center" />
+
+        <!--        <EditText-->
+        <!--            android:id="@+id/track_text"-->
+        <!--            android:layout_width="262dp"-->
+        <!--            android:layout_height="67dp"-->
+        <!--            android:layout_marginLeft="50dp"-->
+        <!--            android:layout_marginTop="120sp"-->
+        <!--            android:textSize="20dp"-->
+        <!--            android:ems="20"-->
+        <!--            android:hint="Enter Bus Id"-->
+        <!--            android:inputType="textPersonName"-->
+        <!--            android:fontFamily="@font/lobster_regular"-->
+        <!--            android:textColor="#FFFFFF"-->
+        <!--            android:textColorHint="#FFFFFF" />-->
+
+
+        <Button
+            android:id="@+id/track_btn"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/custom_button_2"
+            android:fontFamily="@font/lobster_regular"
+            android:text="Find Bus"
+            android:textColor="#FFFEFE"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/track1_btn"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/custom_button_2"
+            android:fontFamily="@font/lobster_regular"
+            android:text="Find All Bus"
+            android:textColor="#FFFEFE"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>
